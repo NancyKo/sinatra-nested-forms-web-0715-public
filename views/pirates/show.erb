@@ -1,7 +1,30 @@
-<h1>Display your Pirate here</h1>
-
-
-<h2>Display your first ship here</h2>
-
-
-<h2>Display your second ship here</h2>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PIRATES </title>
+</head>
+<body>
+  <h1>Display your Pirate here</h1>
+  <%= @pirate.name  %>  
+  <br/>
+  <%= @pirate.weight %>
+  <br/>
+  <%= @pirate.height %>
+  <br/>
+  <h2>Display your first ship here</h2>
+  <br/>
+  <%= @shipp.name %>  
+  <br/>
+  <%= @shipp.type %>
+  <br/>
+  <%= @shipp.booty %>
+  <h2>Display your second ship here</h2>
+  <br/>
+  <%= @ship.name %> 
+  <br/>
+  <%= @ship.type %> 
+  <br/>
+  <%= @ship.booty %>
+  <br/>
+</body>
+</html>
